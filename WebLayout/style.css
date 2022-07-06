@@ -14,7 +14,6 @@ section {
     background-color: #F1F3FF;
 }
 
-
 .navigasi {
     display: flex;
     justify-content: space-around;
@@ -39,7 +38,7 @@ section {
 .container .content {
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
 }
 
 .container .image img {
@@ -67,4 +66,38 @@ section {
     background: #5CB85F;
     text-decoration: none;
     color: white;
+}
+
+.our-service {
+    display: flex;
+    margin-top: 80px;
+    background: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame105 {
+    list-style: none;
+    margin: 20px 0;
+    line-height: 40px;
+}
+
+.desc {
+    padding-left: 86px;
+    line-height: 20px;
+}
+
+.desc p {
+    margin: 18px 0 24px;
+    line-height: 20px;
+    padding-right: 110px;
+}
+
+.desc h3 {
+    padding-right: 210px;
+    line-height: 36px;
+}
+
+.frame105 .title {
+    padding-left: 16px;
 }
