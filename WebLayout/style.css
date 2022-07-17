@@ -9,7 +9,7 @@ body {
 
 section {
     justify-content: space-between;
-    padding-left: 136px;
+    padding-left: 36px;
     padding-top: 38px;
     background-color: #F1F3FF;
 }
@@ -74,6 +74,7 @@ section {
     background: white;
     align-items: center;
     justify-content: center;
+    gap: 70px
 }
 
 .frame105 {
@@ -130,17 +131,15 @@ section {
 
 .layanan p {
     margin-top: 16px;
+    margin-bottom: 40px;
 }
 
-.card {
+.card-container {
     display: flex;
-    margin-top: 40px;
-    box-sizing: border-box;
     flex-direction: row;
-    padding: 0;
-    gap: 32px;
     align-items: flex-start;
-    height: auto;
+    gap: 30px;
+    margin-bottom: 100px;
 }
 
 .card-item {
@@ -171,7 +170,7 @@ section {
     align-items: flex-start;
     padding: 0px;
     gap: 32px;
-    width: 1921px;
+    width: 1893px;
     height: 270px;
 }
 
@@ -273,6 +272,8 @@ section {
     align-items: flex-start;
     padding: 0px;
     gap: 132px;
+    background-color: white;
+    margin-bottom: 114px;
 }
 
 .text {
@@ -300,7 +301,7 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 16px 24px;
-    gap: 368px;
+    gap: 68px;
     width: 668px;
     height: 56px;
     border: 1px solid #D4D4D4;
@@ -317,6 +318,23 @@ footer {
 }
 
 .address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.footer-connect {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
